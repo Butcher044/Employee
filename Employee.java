@@ -25,11 +25,7 @@ public class Employee {
     }
 
     public void setId(int id) {
-        if (this.id < 0){
-            System.out.println("Id не может быть отрицательным!");
-        } else {
-            this.id = id;
-        }
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -37,11 +33,7 @@ public class Employee {
     }
 
     public void setFirstName(String firstName) {
-        if (this.firstName.isEmpty()){
-            System.out.println("Имя не может быть пустым!");
-        } else {
-            this.firstName = firstName;
-        }
+        this.firstName = firstName;
     }
 
     public String getSurname() {
@@ -49,11 +41,7 @@ public class Employee {
     }
 
     public void setSurname(String surname) {
-        if (this.surname.isEmpty()){
-            System.out.println("Вы не ввели фамилию!");
-        } else {
-            this.surname = surname;
-        }
+        this.surname = surname;
     }
 
     public int getYearOfBirth() {
@@ -61,11 +49,7 @@ public class Employee {
     }
 
     public void setYearOfBirth(int yearOfBirth) {
-        if (this.yearOfBirth < 0){
-            System.out.println("Год рождения не может быть отрицательным!");
-        } else {
-            this.yearOfBirth = yearOfBirth;
-        }
+        this.yearOfBirth = yearOfBirth;
     }
 
     public String getPlaceOfBirth() {
@@ -73,11 +57,7 @@ public class Employee {
     }
 
     public void setPlaceOfBirth(String placeOfBirth) {
-        if (this.placeOfBirth.isEmpty()){
-            System.out.println("Вы не ввели место рождения!");
-        } else {
-            this.placeOfBirth = placeOfBirth;
-        }
+        this.placeOfBirth = placeOfBirth;
     }
 
     public double getSalary() {
@@ -85,11 +65,7 @@ public class Employee {
     }
 
     public void setSalary(double salary) {
-        if (this.salary < 0){
-            System.out.println("Зарплата не может быть меньше 0!");
-        } else {
-            this.salary = salary;
-        }
+        this.salary = salary;
     }
 
     public String getMaritalStatus() {
@@ -97,11 +73,7 @@ public class Employee {
     }
 
     public void setMaritalStatus(String maritalStatus) {
-        if (this.maritalStatus.isEmpty()){
-            System.out.println("Вы не ввели семейное положение!");
-        } else {
-            this.maritalStatus = maritalStatus;
-        }
+        this.maritalStatus = maritalStatus;
     }
 
 
